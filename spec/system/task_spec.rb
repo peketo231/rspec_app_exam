@@ -3,7 +3,6 @@ require 'rails_helper'
 RSpec.describe 'Task', type: :system do
   let(:project) { create(:project) }
   let(:task) { create(:task) }
-  include ApplicationHelper
 
   describe 'Task一覧' do
     context '正常系' do
